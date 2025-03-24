@@ -1,4 +1,4 @@
-FROM python
-WORKDIR E:\test12
+FROM python 
+WORKDIR /app
 COPY . .
-run ["python"]
+run ["python", "trsat.py"]
